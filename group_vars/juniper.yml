@@ -1,0 +1,5 @@
+ansible_ssh_user: someone
+ansible_ssh_pass: "**************"
+ansible_connection: ansible.netcommon.network_cli
+ansible_network_os: junipernetworks.junos.junos
+ansible_ssh_extra_args: '-oKexAlgorithms=+diffie-hellman-group1-sha1'
